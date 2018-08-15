@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html class="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900' rel='stylesheet' type='text/css'>
+    <!-- FONTAESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="assets/css/home.css">
+    <!-- ANIMATE CSS -->
+    <link  rel = "stylesheet"  href = "assets/animate/iconate.css">
+</head>
+
+<body>
+	<!-- MENU -->
+    <nav id="menu" class="panel" role="navigation">
+        <ul class="panel-item">
+            <li>
+            	<i class="fas fa-user-circle"></i>
+            	<a href="#">Nome de usuário</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="panel-edit">
+        	<p>Editar</p>
+            <li>
+            	<i class="far fa-address-book"></i>
+            	<a href="#">Conta</a>
+            </li>
+            <li>
+            	<i class="fas fa-user-shield"></i>
+            	<a href="#">Perfil</a>
+            </li>
+            <li>
+            	<i class="fas fa-sign-out-alt"></i>
+            	<a href="#">Logout</a>
+            </li>
+        </ul>
+        <ul class="panel-config">
+        	<p>Editar</p>
+            <li>
+            	<i class="fas fa-atom"></i>
+            	<a href="#">Aplicativo</a>
+            </li>
+            <li>
+            	<i class="fas fa-fingerprint"></i>
+            	<a href="#">Segurança</a>
+            </li>
+            <li>
+            	<i class="fas fa-user-secret"></i>
+            	<a href="#">Privacidade</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <div class="wrap push">
+            <a href="#menu" class="menu-link">
+                <i id="icon" class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <section class="home-animate">
+        <div>
+            <img src="assets/image/robot.png">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer push">   
+      <ul>
+          <li><i class="fas fa-calendar-alt"></i></li>
+          <li><i class="fas fa-tasks"></i></li>
+          <li><i class="fas fa-th-large"></i></li>
+          <li><i class="fas fa-stopwatch"></i></li>
+      </ul>
+    </footer>
+    
+
+
+    <script  type = "text/javascript" src = "assets/animate/iconate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/bigSlide.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.menu-link').bigSlide();
+        });
+    </script>
+    <!--
+   <script type="text/javascript">
+       
+        var iconElement = document.getElementById('icon');
+        var options = {
+            from: 'fa-bars',
+            to: 'bars',
+            animation: 'rubberBand'
+        };
+
+        iconate(iconElement, options);
+    </script>
+  -->
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+/*Import google font*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*RESET*/
+*{margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+nav, ul{list-style: none;}
+a{text-decoration: none; cursor: pointer; opacity: 0.9;}
+a:hover{opacity: 1;}
+/*RESET INPUTS*/
+textarea:focus,
+input:focus,
+select:focus {
+border-color: none !important;
+outline: 0;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+
+/*LOGO*/
+.logo{
+	padding: 25px 2px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center; 
+	text-align: center;
+
+}
+/*FORMULARIO*/
+.formulario{
+	display: flex; text-align: center; justify-content: center;
+
+}
+.formulario form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+}
+.formulario input{
+	color: #67647E;
+	padding: 20px;
+	border:none;
+	border-bottom: 1px solid #67647E;
+}
+::-webkit-input-placeholder {
+	color: #dbdbdb;
+   font-size: 13px;
+   margin-left: 0;
+}
+
+
+/*LOGIN*/
+.login{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.login button{
+	padding: 10px 40px;
+	background-color: #FFCE84;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+button:focus,
+select:focus {
+border-color: none !important;
+outline: 0;
+}
+
+/*INSCREVA*/
+.inscreva{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.inscreva p{
+	margin-bottom: 20px;
+	font-size: 12px;
+	margin-top: 30px;
+	color: #67647E;
+	cursor: pointer;
+}
+
+ 

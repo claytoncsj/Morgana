@@ -1,0 +1,147 @@
+/*RESET*/
+*{padding: 0; margin-top: 0;}
+nav, ul{list-style: none;}
+a{text-decoration: none; cursor: pointer; opacity: 0.9;}
+a:hover{opacity: 1;}
+
+/*BODY*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #101820;
+    line-height: 1.5;
+    height: 100%;
+    margin: 0px;
+    background-color: #fff;
+    background-size: cover;
+}
+
+/*HEADER*/
+header{
+    background-color: rgba(113, 89, 193, 0);
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 4px 0px #cccccc;
+}
+.wrap {
+    display: flex;
+    position: relative;
+    max-width: 85%;
+    padding: 12px 20px;
+
+}
+.wrap i{
+    color: #8c8c8c;
+    font-size: 1.6rem;
+}
+
+
+
+/*PAINEL*/
+.panel {
+    background: rgb(113, 89, 193);
+
+}
+.panel hr{
+    border: 0.0.2rem solid #fff;
+    max-width: 50%
+}
+.panel-item{
+    padding: 15px 20px;
+    flex-direction: column;
+    display:inline-block;
+}
+.panel-item i{
+    color: #fff;
+    font-size: 3rem;
+}
+.panel-item a{
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+}
+
+/*PANEl EDIT*/
+.panel-edit{
+    margin-top: 20px;   
+    padding: 15px 20px;
+}
+.panel-edit p{
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+}
+.panel-edit li{
+    padding: 8px;
+}
+.panel-edit a{
+    color: #fff;
+}
+.panel-edit i{
+    color: #fff;
+    margin-right: 10px;
+}
+/*PANEL CONFIG*/
+
+.panel-config{
+    margin-top: 20px;   
+    padding: 15px 20px;
+}
+.panel-config p{
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+}
+.panel-config li{
+    padding: 8px;
+}
+.panel-config a{
+    color: #fff;
+}
+.panel-config i{
+    color: #fff;
+    margin-right: 10px;
+}
+/*SECTION*/
+.home-animate{
+    min-height: 100%;
+    display: flex; 
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.home-animate img{
+    width: 5rem;
+    margin-top: 5em;
+
+}
+
+/*FOOTER*/
+
+.footer {
+    box-shadow: 5px 0px 18px 0px #cccccc;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer ul {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer ul li{
+    margin-right: 50px;
+
+}
+.footer li:first-child{
+    margin-left: 50px;
+}
+
+.footer i{
+    cursor: pointer;
+    color: #8c8c8c;
+    font-size: 1.6rem;
+ }
